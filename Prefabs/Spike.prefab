@@ -12,6 +12,7 @@ GameObject:
   - component: {fileID: 434587814075206651}
   - component: {fileID: 7367361668529109617}
   - component: {fileID: 7567589191087673806}
+  - component: {fileID: 4698561205120700413}
   m_Layer: 0
   m_Name: Spike
   m_TagString: Untagged
@@ -27,7 +28,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 6948318455726900933}
   serializedVersion: 2
-  m_LocalRotation: {x: -0, y: -0, z: -0.9999943, w: 0.003391065}
+  m_LocalRotation: {x: 0, y: 0, z: -0.9999943, w: 0.0033948997}
   m_LocalPosition: {x: 8.4755, y: -2.2485, z: 0}
   m_LocalScale: {x: 0.5522, y: 1.8829, z: 1}
   m_ConstrainProportionsScale: 0
@@ -130,12 +131,12 @@ PolygonCollider2D:
   m_AutoTiling: 0
   m_Points:
     m_Paths:
-    - - {x: -0.43359375, y: 0.25}
-      - {x: -0.43359375, y: -0.25}
-      - {x: 0, y: -0.5}
-      - {x: 0.43359375, y: -0.25}
-      - {x: 0.43359375, y: 0.25}
-      - {x: 0, y: 0.5}
+    - - {x: -0.4630579, y: 0.2538794}
+      - {x: -0.47373632, y: -0.24208176}
+      - {x: 0.0042639584, y: -0.522563}
+      - {x: 0.4871747, y: -0.24036987}
+      - {x: 0.4961285, y: 0.25741252}
+      - {x: 0.00054379366, y: 0.5235141}
   m_UseDelaunayMesh: 0
 --- !u!114 &7567589191087673806
 MonoBehaviour:
@@ -149,3 +150,17 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 88cc54137a998234ab831803b279fdf8, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+--- !u!114 &4698561205120700413
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 6948318455726900933}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: bbb9d6b73fc1b804bb439eab7a654831, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  shadowMaterial: {fileID: 2100000, guid: bd8000a5140d5de4ea8f334c60e2fb88, type: 2}
+  shadowOffset: {x: 0, y: -0.07}

@@ -5,7 +5,7 @@ using UnityEngine;
 public class Shadow : MonoBehaviour
 {
     [SerializeField] Material shadowMaterial;
-    [SerializeField] private Vector2 shadowOffset;
+    public Vector2 shadowOffset;
 
     protected SpriteRenderer spriteRenderer;
     protected GameObject ShadowGameObject;
