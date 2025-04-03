@@ -26,13 +26,13 @@ public class GameManager : MonoBehaviour
     {   //lose condition
         if (player.getSticked() == false)
         {
-            if(Stickman.transform.position.x < -5)
+            if(Stickman.transform.position.x < -6)
             {
                 //reset
                 ResetGame();
             }
 
-            if(player.transform.position.y < -5)
+            if(player.transform.position.y < -11)
             {
                 ResetGame();
             }
