@@ -50,3 +50,5 @@ MonoBehaviour:
   WinningSpeed: 0.2
   Stickman: {fileID: 0}
   particleEffect: {fileID: 0}
+  lvlToLoad: 2
+  initPos: {x: 0, y: 0, z: 0}

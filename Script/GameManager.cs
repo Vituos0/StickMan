@@ -12,6 +12,8 @@ public class GameManager : MonoBehaviour
 
     [SerializeField] private GameObject Stickman;
     [SerializeField] private GameObject particleEffect;
+    public int lvlToLoad;
+    
 
     public Vector3 initPos;
     private bool won;
@@ -67,6 +69,6 @@ public class GameManager : MonoBehaviour
     IEnumerator FinishLevel()
     {
         yield return new WaitForSeconds(3);
-        SceneManager.LoadScene(0);
+        SceneManager.LoadScene(lvlToLoad);
     }
 }
