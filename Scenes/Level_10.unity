@@ -1044,6 +1044,7 @@ MonoBehaviour:
   WinningSpeed: 0.2
   Stickman: {fileID: 2063296897}
   particleEffect: {fileID: 118384728}
+  lvlToLoad: 1
   initPos: {x: 0, y: 0, z: 0}
 --- !u!4 &931666927
 Transform:
