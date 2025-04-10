@@ -1972,6 +1972,10 @@ PrefabInstance:
     m_TransformParent: {fileID: 0}
     m_Modifications:
     - target: {fileID: 1343926153268433384, guid: a703877d3cffb3d408e719dd94ac7f10, type: 3}
+      propertyPath: m_Enabled
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 1343926153268433384, guid: a703877d3cffb3d408e719dd94ac7f10, type: 3}
       propertyPath: m_Parameters.widthCurve.m_Curve.Array.data[1].time
       value: 0.9718378
       objectReference: {fileID: 0}
