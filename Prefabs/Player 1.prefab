@@ -17,6 +17,7 @@ GameObject:
   - component: {fileID: 3290267322893910261}
   - component: {fileID: 1343926153268433384}
   - component: {fileID: 3397478388200899822}
+  - component: {fileID: 7609869927668043403}
   m_Layer: 7
   m_Name: Player 1
   m_TagString: Player
@@ -304,7 +305,7 @@ CircleCollider2D:
   m_UsedByComposite: 0
   m_Offset: {x: 0, y: 0}
   serializedVersion: 2
-  m_Radius: 0.5899999
+  m_Radius: 0.59
 --- !u!96 &1343926153268433384
 TrailRenderer:
   serializedVersion: 3
@@ -365,13 +366,13 @@ TrailRenderer:
         inWeight: 0.33333334
         outWeight: 0.33333334
       - serializedVersion: 3
-        time: 0.8908567
+        time: 0.9718378
         value: 0
-        inSlope: 0.092676885
-        outSlope: 0.092676885
+        inSlope: 0.2909719
+        outSlope: 0.2909719
         tangentMode: 0
         weightedMode: 0
-        inWeight: 0.22995782
+        inWeight: 0.17518824
         outWeight: 0
       m_PreInfinity: 2
       m_PostInfinity: 2
@@ -435,6 +436,20 @@ MonoBehaviour:
   isDynamic: 1
   maxOffset: 0.1
   cameraFollow: {fileID: 0}
+--- !u!114 &7609869927668043403
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 4584546795978366829}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c7669fecda61ab04590e1f4481429268, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  textComponent: {fileID: 0}
+  Money: 0
 --- !u!1 &5396790019433108488
 GameObject:
   m_ObjectHideFlags: 0

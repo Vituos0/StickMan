@@ -194,5 +194,5 @@ public class Player : MonoBehaviour
         rb.angularVelocity = 0f;
         spriteRenderer.sprite = winSprite;
     }
-
+   
 }
